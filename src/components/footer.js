@@ -12,9 +12,9 @@ class Footer extends Component {
                         <div className="left col-md-4">
                             <h3>ShopRetale</h3>
                             <div className="icons mx-0">
-                                <a href="#"><i className="fab fa-facebook fa-2x text-white"/></a>
-                                <a href="#"><i className="fab fa-instagram fa-2x text-white"/></a>
-                                <a href="#"><i className="fab fa-twitter-square fa-2x text-white"/></a>
+                                <a href="#/"><i className="fab fa-facebook fa-2x text-white"/></a>
+                                <a href="#/"><i className="fab fa-instagram fa-2x text-white"/></a>
+                                <a href="#/"><i className="fab fa-twitter-square fa-2x text-white"/></a>
                             </div>
                             <p>©2020ShopRetale</p>
 

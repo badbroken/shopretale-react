@@ -10,60 +10,68 @@ class Home extends Component {
             <div>
                 <div id="home">
                     <div className="container">
-                        <div className="left-text">
-                            <h1>Know the story of the brand you are shopping from</h1>
-                            <p>Wear the story you want to tell. Discover brands by aesthetics or their unique
-                                stories and support
-                                the mission they are on.</p>
-                            <div className="button">
-                                <Link to="/shopper">
-                                    <a className="btn" href="#">Join Us</a>
-                                </Link>
+                        <div className="row">
+                            <div className="left-text col-xl-7 col-lg-7">
+                                <h1>Know the story of the brand you are shopping from</h1>
+                                <p>Wear the story you want to tell. Discover brands by aesthetics or their unique
+                                    stories and support
+                                    the mission they are on.</p>
+                                <div className="button">
+                                    <Link to="/shopper">
+                                        <a className="btn" href="#/">Join Us</a>
+                                    </Link>
+                                </div>
+                            </div>
+                            <div className="right-img col-xl-5 col-lg-5">
+                                <img src="images/sec-home/ShopRetale Image 1.png" alt=""/>
+                                <img src="images/sec-home/fashion-model-in-red-suit 1.png" alt=""/>
+                                <img src="images/sec-home/model-in-gold-fashion 1.png" alt=""/>
                             </div>
                         </div>
 
-                        <img src="images/sec-home/ShopRetale Image 1.png" alt=""/>
-                        <img src="images/sec-home/model-in-gold-fashion 1.png" alt=""/>
-                        <img src="images/sec-home/fashion-model-in-red-suit 1.png" alt=""/>
+
                     </div>
                 </div>
                 <div id="feature">
+
                     <h4>Supported by Wonsulting</h4>
+
                     <div className="container">
-                        <div className="d-flex justify-content-between">
-                            <div className="left-side d-inline-flex flex-column justify-content-center">
+                        <div className="row">
+                            <div className="left-side d-flex flex-column justify-content-center col-xl-5 ">
                                 <h3>WHAT WE CREATED</h3>
-                                <div className="d-inline-flex">
-                                    <p>A platform to browse mission based brands. We have categorized brands by
-                                        their
-                                        <strong>aesthetic</strong> and
-                                        <strong>the impact they are creating</strong> to curate a meaningful
-                                        shopping experience.</p>
-                                </div>
-                                <div className="d-inline-flex my-5">
-                                    <Link to="/shopper">
-                                        <button className="btn px-5">Know More</button>
-                                    </Link>
-
-                                </div>
-
+                                <p>A platform to browse mission based brands. We have categorized brands by
+                                    their
+                                    <strong> aesthetic</strong> and
+                                    <strong> the impact they are creating</strong> to curate a meaningful
+                                    shopping experience.</p>
+                                <Link to="/shopper">
+                                    <button className="btn px-5">Know More</button>
+                                </Link>
                             </div>
-                            <div className="right-side d-flex flex-row align-items-center my-5">
-                                <div className="card second mx-1">
-                                    <img src="images/feature/ShopRetale Image 3.png" alt=""/>
+                            <div className="right-side col-xl-7 col-md-12">
+                                <div className="row d-flex justify-content-lg-end justify-content-md-center">
+                                    <div className="d-flex flex-column justify-content-center">
+                                        <div className="card second mx-1">
+                                            <img src="images/feature/ShopRetale Image 3.png" alt=""/>
+                                            <div className="card-footer">Women Owned Business</div>
+                                        </div>
+                                    </div>
+                                    <div className="d-flex flex-column">
+                                        <div className="card first my-1">
+                                            <img src="images/feature/casual-urban-menswear 1.png" alt=""/>
+                                            <div className="card-footer">Minimal</div>
+                                        </div>
+                                        <div className="card third">
+                                            <img src="images/feature/professional-man-smiling 1.png" alt=""/>
+                                            <div className="card-footer">Black Owned Business</div>
+                                        </div>
+                                    </div>
+                                </div>
 
-                                    <div className="card-footer">Women Owned Business</div>
-                                </div>
-                                <div className="nested-right">
-                                    <div className="card first my-1">
-                                        <img src="images/feature/casual-urban-menswear 1.png" alt=""/>
-                                        <div className="card-footer">Minimal</div>
-                                    </div>
-                                    <div className="card third">
-                                        <img src="images/feature/professional-man-smiling 1.png" alt=""/>
-                                        <div className="card-footer">Black Owned Business</div>
-                                    </div>
-                                </div>
+
+
+
 
                             </div>
                         </div>

@@ -6,13 +6,13 @@
 @import "helpers/footer";
 
 
-.hw-home {
-  background: url("../images/how-it-works/donut-float-fun 1.png") no-repeat;
+.main {
+  background: url('/public/images/how-it-works/donut-float.png') no-repeat;
   background-size: cover;
   height: 85vh;
   width: 100vw;
 
-  .container-fluid {
+  .container{
     h1 {
       display: flex;
       justify-content: flex-end;
@@ -29,40 +29,22 @@
   background-color: #FFF9EB;
 }
 
-.first , .second , .third {
+#first , #second , #third {
   height: 100vh;
-}
+  p {
+    @include pfont;
+  }
+  span {
+    font-family: 'Dancing Script', cursive;
+    border: none;
+    padding: 1rem 3.1rem;
+    background-color: #EC008C;
+    color: white;
+    font-size: 75px;
+  }
+  h3 {
+    @include h3font;
+    font-weight: bold;
 
-.hw-signup {
-
-  .container-fluid {
-
-
-    .step {
-      padding: 10rem 0;
-
-      .texts {
-        .flex-row {
-
-          h3 {
-            @include h3font;
-            font-weight: bold;
-
-          }
-
-          span {
-            font-family: 'Dancing Script', cursive;
-            border: none;
-            padding: 1rem 3.1rem;
-            background-color: #EC008C;
-            color: white;
-            font-size: 75px;
-          }
-        }
-        p {
-          @include pfont;
-        }
-      }
-    }
   }
 }

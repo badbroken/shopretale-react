@@ -5,8 +5,8 @@
 @import "helpers/navigation";
 @import "helpers/footer";
 
-.ab-home {
-  background: url("../images/about-home/beach-boardwalk-selfie 1.png") no-repeat;
+.home {
+  background: url("/public/images/about-home/beach-boardwalk-selfie 1.png") no-repeat;
   background-size: cover;
   height: 80vh;
   width: 100vw;
@@ -24,8 +24,8 @@
 
 }
 
-.ab-feature {
-  height: 100vh;
+.feature {
+  min-height: 95vh;
   padding-bottom: 4rem;
   background-color: #FFF7E3;
   font-family: "Segoe UI Regular", serif;
@@ -38,9 +38,9 @@
     color: white;
   }
 
-  .container-fluid {
+  .container {
     .left-side {
-      padding-right: 20rem;
+      padding-right: 7rem;
 
       h3 {
         @include h3font;
@@ -53,12 +53,12 @@
   }
 }
 
-.ab-feature-2 {
-  height: 100vh;
+.feature-2 {
+  min-height: 100vh;
 
-  .container-fluid {
-    .left-side {
-      padding-left: 20rem;
+  .container {
+    .right-side {
+      padding-left: 15rem;
 
       h3 {
         @include h3font;
