@@ -5,10 +5,10 @@
 @import "helpers/navigation";
 @import "helpers/footer";
 
-.contact {
-  height: 45vh;
+#scontact {
+  min-height: 60vh;
   .row {
-    .container-fluid {
+    .container {
       button {
         @include btnchr;
         padding: 0.7rem 1rem;
@@ -26,15 +26,15 @@
     }
   }
 }
-
-@media screen and (max-width: 1440px) {
-  .contact{
-    margin-bottom: 5rem;
-  }
-}
-
-@media screen and (max-height: 800px) {
-  .contact{
-    margin-bottom: 8rem;
-  }
-}
+//
+//@media screen and (max-width: 1440px) {
+//  .contact{
+//    margin-bottom: 5rem;
+//  }
+//}
+//
+//@media screen and (max-height: 800px) {
+//  .contact{
+//    margin-bottom: 8rem;
+//  }
+//}

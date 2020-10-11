@@ -7,16 +7,13 @@
 
 
 .main {
-  background: url('/public/images/how-it-works/donut-float.png') no-repeat;
+  background: url('/images/how-it-works/donut-float.min.png') no-repeat;
   background-size: cover;
-  height: 85vh;
+  min-height: 85vh;
   width: 100vw;
 
   .container{
     h1 {
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
       height: 75vh;
       @include h1font;
       color: white;
@@ -30,9 +27,12 @@
 }
 
 #first , #second , #third {
-  height: 100vh;
+  min-height: 100vh;
   p {
     @include pfont;
+  }
+  img{
+    width: 100%;
   }
   span {
     font-family: 'Dancing Script', cursive;

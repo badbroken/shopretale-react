@@ -11,21 +11,21 @@ class Home extends Component {
                 <div id="home">
                     <div className="container">
                         <div className="row">
-                            <div className="left-text col-xl-7 col-lg-7">
+                            <div className="left-text col-xl-7 col-lg-7 col-md-11 col-sm-11 col-11">
                                 <h1>Know the story of the brand you are shopping from</h1>
                                 <p>Wear the story you want to tell. Discover brands by aesthetics or their unique
                                     stories and support
                                     the mission they are on.</p>
                                 <div className="button">
                                     <Link to="/shopper">
-                                        <a className="btn" href="#/">Join Us</a>
+                                        <a className="btn" href={"#!"}>Join Us</a>
                                     </Link>
                                 </div>
                             </div>
                             <div className="right-img col-xl-5 col-lg-5">
-                                <img src="images/sec-home/ShopRetale Image 1.png" alt=""/>
-                                <img src="images/sec-home/fashion-model-in-red-suit 1.png" alt=""/>
-                                <img src="images/sec-home/model-in-gold-fashion 1.png" alt=""/>
+                                <img src={"images/sec-home/ShopRetale Image 1.min.png"} alt=""/>
+                                <img src={"images/sec-home/fashion-model-in-red-suit 1.min.png"} alt=""/>
+                                <img src={"images/sec-home/model-in-gold-fashion 1.min.png"} alt=""/>
                             </div>
                         </div>
 
@@ -49,21 +49,21 @@ class Home extends Component {
                                     <button className="btn px-5">Know More</button>
                                 </Link>
                             </div>
-                            <div className="right-side col-xl-7 col-md-12">
-                                <div className="row d-flex justify-content-lg-end justify-content-md-center">
+                            <div className="right-side col-xl-7">
+                                <div className="row d-flex justify-content-lg-end justify-content-md-center justify-content-sm-center">
                                     <div className="d-flex flex-column justify-content-center">
                                         <div className="card second mx-1">
-                                            <img src="images/feature/ShopRetale Image 3.png" alt=""/>
+                                            <img src={"images/feature/ShopRetale Image 3.min.png"} alt=""/>
                                             <div className="card-footer">Women Owned Business</div>
                                         </div>
                                     </div>
                                     <div className="d-flex flex-column">
                                         <div className="card first my-1">
-                                            <img src="images/feature/casual-urban-menswear 1.png" alt=""/>
+                                            <img src={"images/feature/casual-urban-menswear 1.min.png"} alt=""/>
                                             <div className="card-footer">Minimal</div>
                                         </div>
                                         <div className="card third">
-                                            <img src="images/feature/professional-man-smiling 1.png" alt=""/>
+                                            <img src={"images/feature/professional-man-smiling 1.min.png"} alt=""/>
                                             <div className="card-footer">Black Owned Business</div>
                                         </div>
                                     </div>
@@ -80,15 +80,15 @@ class Home extends Component {
                 <div id="why-us">
                     <div className="container">
                         <div className="row">
-                            <div className="left col-xl-5 col-lg-5 d-flex flex-column justify-content-center">
+                            <div className="left col-xl-5 col-lg-5 d-flex flex-column justify-content-center order-lg-first order-xl-first order-md-last order-sm-last order-last">
                                 <span>“Small businesses need to stand out to succeed instead of blending into a faceless
                                 marketplace.”</span>
                                 <p>— A Small Business Owner</p>
                             </div>
                             <div className="middle col-xl-2 col-lg-2 d-flex flex-column justify-content-center">
-                                <img src="images/why-arrow.png" alt=""/>
+                                <img src={"images/why-arrow.min.png"} alt=""/>
                             </div>
-                            <div className="right col-xl-5 col-lg-5">
+                            <div className="right col-xl-5 col-lg-5 order-first order-md-first order-sm-first order-lg-last order-xl-last">
                                 <h3>WHY WE CREATED IT</h3>
                                 <p>We believe every brand has a story to tell that empowers their mission. <u>We are
                                     here to support these
@@ -107,7 +107,7 @@ class Home extends Component {
                             <div className="left col-xl-4 col-lg-4 col-md-4 col-sm-5 col-xs-6">
                                 <div className="card bg-transparent border-0">
                                     <img className="card-img-top align-self-center"
-                                         src="images/testimonial/Thomas%20Chow%201.png"
+                                         src={"images/testimonial/Thomas%20Chow%201.min.png"}
                                          alt=""/>
                                     <div className="card-body text-center">
                                         <p><strong>Thomas Chow, <br/>Co-Founder of ShopRetale</strong></p>

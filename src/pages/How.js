@@ -9,12 +9,14 @@ class How extends Component {
             <div>
                 <div id="hero" className="main">
                     <div className="container">
-                        <h1 className="text-uppercase">how it works</h1>
+                        <h1 className="d-flex justify-content-xl-end justify-content-lg-end justify-content-md-center justify-content-sm-center
+                        justify-content-center align-items-xl-center align-items-center text-uppercase">how it works</h1>
                     </div>
                 </div>
+
                 <div id="first" className="d-flex flex-column justify-content-center">
                     <div className="container">
-                        <div className=" d-flex flex-row my-5">
+                        <div className="d-flex flex-xl-row flex-lg-row flex-md-row flex-sm-column flex-column my-5">
                             <div className="col-lg-6 align-self-center">
                                 <div className="d-flex flex-row my-4">
                                     <span>1</span>
@@ -27,17 +29,17 @@ class How extends Component {
                             </div>
                             <div className="image col-lg-6">
                                 <img height="100%" width="100%"
-                                     src="images/how-it-works/buying-online-black-friday.png" alt=""/>
+                                     src={"images/how-it-works/buying-online-black-friday.min.png"} alt=""/>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div id="second" className="custom-bg d-flex flex-column justify-content-center">
                     <div className="container ">
-                        <div className="d-flex flex-row">
+                        <div className="d-flex flex-xl-row flex-lg-row flex-md-row flex-sm-column-reverse flex-column-reverse">
                             <div className="image col-lg-6">
                                 <img height="100%" width="100%"
-                                     src="images/how-it-works/buying-online-black-friday.png" alt=""/>
+                                     src={"images/how-it-works/buying-online-black-friday.min.png"} alt=""/>
                             </div>
                             <div className="texts col-lg-6 align-self-center">
                                 <div className="d-flex flex-row my-4">
@@ -51,8 +53,7 @@ class How extends Component {
                 </div>
                 <div id="third" className="d-flex flex-column justify-content-center">
                     <div className="container">
-                        <div className="step d-flex flex-row my-5">
-
+                        <div className="d-flex flex-xl-row flex-lg-row flex-md-row flex-sm-column flex-column my-5">
                             <div className="texts col-lg-6 align-self-center">
                                 <div className="d-flex flex-row my-4">
                                     <span>3</span>
@@ -66,7 +67,7 @@ class How extends Component {
                             </div>
                             <div className="image col-lg-6">
                                 <img height="100%" width="100%"
-                                     src="images/how-it-works/buying-online-black-friday.png" alt=""/>
+                                     src={"images/how-it-works/buying-online-black-friday.min.png"} alt=""/>
                             </div>
                         </div>
                     </div>

@@ -9,7 +9,7 @@
 #home {
   .container {
     padding: 3rem 0;
-    min-height: 60vh;
+    min-height: 75vh;
 
 
     .row {
@@ -18,7 +18,7 @@
         padding-top: 5rem;
         padding-right: 7rem;
         @media screen and (max-width: 990px){
-          padding: 0rem;
+          padding-right: 0;
           text-align: center;
         }
 
@@ -60,6 +60,9 @@
             position: relative;
             z-index: 1;
             right: 6rem;
+            @media only screen and (max-width: 1500px) {
+              transform: scale(0.9);
+            }
           }
 
           &:nth-child(2) {
@@ -69,6 +72,12 @@
             z-index: 0;
             top: 1.2rem;
             right: 1.5rem;
+            @media only screen and (max-width: 1500px) {
+              top: 1.3rem;
+              right: 0.5rem;
+              transform: scale(0.8);
+            }
+
           }
 
           &:nth-child(3) {
@@ -78,6 +87,10 @@
             z-index: -1;
             transform: scale(0.8);
             left: 1.1rem;
+            @media only screen and (max-width: 1500px) {
+              left: 2.6rem;
+              transform: scale(0.6);
+            }
           }
         }
       }
@@ -124,10 +137,7 @@
 
       .right-side {
         img{
-          @media screen and (max-width: 990px){
-            height: 100%;
-
-          }
+          width: 300px;
 
         }
         .first {
@@ -168,7 +178,7 @@
 }
 
 #why-us {
-  height: 40vh;
+  min-height: 50vh;
 
   .container {
 
@@ -198,6 +208,9 @@
         position: relative;
         bottom: 3rem;
         width: 150px;
+        @media screen and (max-width: 990px) {
+          display: none;
+        }
       }
     }
 

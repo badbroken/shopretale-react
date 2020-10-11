@@ -7,10 +7,10 @@
 
 
 
-.contact {
-    height: 100vh;
+#contact {
+    min-height: 100vh;
     .row {
-        .container-fluid {
+        .container{
             font-family: "Segoe UI Regular", serif;
             margin: 0 auto;
             padding: 50px 0;
@@ -36,14 +36,14 @@
     }
 }
 
-@media screen and (max-width: 1440px) {
-.contact{
-    margin-bottom: 8rem;
-}
-}
-
-@media screen and (max-height: 800px) {
-    .contact{
-        margin-bottom: 10rem;
-    }
-}
+//@media screen and (max-width: 1440px) {
+//.contact{
+//    margin-bottom: 8rem;
+//}
+//}
+//
+//@media screen and (max-height: 800px) {
+//    .contact{
+//        margin-bottom: 10rem;
+//    }
+//}

@@ -10,10 +10,10 @@ class Header extends Component {
         return (
             <div className="navigation">
                 <div className="container">
-                    <nav className="navbar navbar-expand-lg navbar-light justify-content-between">
+                    <nav className=" navbar navbar-expand-lg navbar-light justify-content-between">
                         <Link to="/">
-                            <a href="#/">
-                                <img src="images/logo.png" alt=""/>
+                            <a href={"#!"}>
+                                <img src={"images/logo.min.png"} alt=""/>
                             </a>
                         </Link>
 
@@ -28,19 +28,19 @@ class Header extends Component {
                             <ul className="navbar-nav">
                                 <Link to="/about">
                                     <li className="nav-item">
-                                        <a href="#/" className="nav-link">About us</a>
+                                        <a href={"#!"} className="nav-link">About us</a>
                                     </li>
                                 </Link>
 
                                 <Link to="/how-it-works">
                                     <li className="nav-item">
-                                        <a href="#/" className="nav-link" >How it works</a>
+                                        <a href={"#!"} className="nav-link" >How it works</a>
                                     </li>
                                 </Link>
 
                                 <Link to="/submit">
                                     <li className="nav-item">
-                                        <a href="#/" className="nav-link">Submit Your Story</a>
+                                        <a href={"#!"} className="nav-link">Submit Your Story</a>
                                     </li>
                                 </Link>
 
@@ -48,7 +48,7 @@ class Header extends Component {
                         </div>
                         <div className="button">
                             <Link to="/shopper">
-                                <a href="#/" className="btn" >Get Started</a>
+                                <a href={"#!"} className="btn" >Get Started</a>
                             </Link>
 
                         </div>
