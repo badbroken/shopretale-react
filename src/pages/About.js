@@ -133,7 +133,7 @@ class About extends Component {
                         <div className="row">
                             <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 py-5 py-xl-0">
                                 <div className="card">
-                                    <a href={"https://www.linkedin.com/in/athiyarastogi/"} target="_blank"><img
+                                    <a href={"https://www.linkedin.com/in/athiyarastogi/"} target="_blank" rel="noopener noreferrer"><img
                                         src={"images/team/Athiya.min.png"} className="card-img-top" alt="..."/></a>
                                     <div className="card-body">
                                         <h5 className="card-title">Athiya Rastogi</h5>
@@ -143,7 +143,7 @@ class About extends Component {
                             </div>
                             <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 pb-5 pb-xl-0">
                                 <div className="card">
-                                    <a href={"https://www.linkedin.com/in/thomas-c1/"} target="_blank"><img
+                                    <a href={"https://www.linkedin.com/in/thomas-c1/"} target="_blank" rel="noopener noreferrer"><img
                                         src={"images/team/Thomas.min.png"} className="card-img-top" alt="..."/></a>
                                     <div className="card-body">
                                         <h5 className="card-title">Thomas Chow</h5>
@@ -153,7 +153,7 @@ class About extends Component {
                             </div>
                             <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 pb-5 pb-xl-0">
                                 <div className="card">
-                                    <a href={"https://www.linkedin.com/in/sakshi--kabra/"} target="_blank"><img
+                                    <a href={"https://www.linkedin.com/in/sakshi--kabra/"} target="_blank" rel="noopener noreferrer"><img
                                         src={"images/team/Sakshi.min.png"} className="card-img-top" alt="..."/></a>
                                     <div className="card-body">
                                         <h5 className="card-title">Sakshi Kabra</h5>
@@ -163,7 +163,7 @@ class About extends Component {
                             </div>
                             <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 pb-5 pb-xl-0">
                                 <div className="card">
-                                    <a href={"https://www.linkedin.com/in/shajedulhasan/"} target="_blank"><img
+                                    <a href={"https://www.linkedin.com/in/shajedulhasan/"} target="_blank" rel="noopener noreferrer"><img
                                         src={"images/team/Vernon.min.png"} className="card-img-top" alt="..."/></a>
                                     <div className="card-body">
                                         <h5 className="card-title">Shajedul Hasan</h5>
