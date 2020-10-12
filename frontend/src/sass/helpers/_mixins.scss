@@ -1,0 +1,47 @@
+@mixin btnchr {
+  background-color: $btn-bg;
+  border-radius: 10px;
+  color: white;
+  font-size: 17px;
+  font-family: 'Lato', sans-serif;
+  padding: 1rem;
+}
+
+@mixin headerstyle {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+@mixin pfont {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  @media only screen and (max-width: 600px) {
+    font-size: 17px;
+  }
+}
+
+@mixin h1font {
+  font-family: 'Lato', sans-serif;
+  font-size: 65px;
+  @media only screen and (max-width: 600px) {
+    font-size: 40px;
+  }
+}
+
+@mixin h3font {
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  @media only screen and (max-width: 600px) {
+    font-size: 20px;
+  }
+}
+
+@mixin h4font {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-style: italic;
+  background: #0D1025;
+  padding: 1rem;
+  color: white;
+}

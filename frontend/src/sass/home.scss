@@ -107,11 +107,7 @@
   background-color: #FFF2F2;
 
   h4 {
-    text-align: center;
-    font-style: italic;
-    background: #0D1025;
-    padding: 1rem;
-    color: white;
+    @include h4font;
   }
 
   .container {

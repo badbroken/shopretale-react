@@ -5,15 +5,14 @@
 @import "helpers/navigation";
 @import "helpers/footer";
 
-#scontact {
+#shopper-contact {
   min-height: 60vh;
   .row {
     .container {
       button {
         @include btnchr;
-        padding: 0.7rem 1rem;
+        padding: 0.2rem 1rem;
       }
-
       .header {
         h3 {
           @include h3font;
@@ -21,20 +20,9 @@
 
         p {
           @include pfont;
+          text-align: center;
         }
       }
     }
   }
 }
-//
-//@media screen and (max-width: 1440px) {
-//  .contact{
-//    margin-bottom: 5rem;
-//  }
-//}
-//
-//@media screen and (max-height: 800px) {
-//  .contact{
-//    margin-bottom: 8rem;
-//  }
-//}
